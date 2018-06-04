@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+
+        <!-- Resources -->
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="css/lightbox.css" rel="stylesheet">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/custom.js"></script>
+    
+        <!-- Basic tags-->
+        <title>Projekty | Martin Dostál</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta similique amet sequi, omnis rerum at alias laborum earum!">
+        <meta name="keywords" content="Martin Dostál, portfolio, backend, frontend, developer">
+        <meta name="author" content="Martin Dostál">
+    
+        <!-- OpenGraph -->
+        <meta property="og:title" content="Projekty | Martin Dostál" /> 
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://example.com" />
+        <meta property="og:image" content="http://example.com/images/og.jpg" />
+        <meta property="og:description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta similique amet sequi, omnis rerum at alias laborum earum!"/>
+    
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div id="gr">
+                    <div id="branding">
+                        <h1>Martin <span class="highlighter">Dostál</span></h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Domů</a></li>
+                            <li class="active"><a href="projects.html">Projekty</a></li>
+                            <li><a href="about.html">O mně</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+
+        <section id="banner">
+            <div id="banner-image"></div>
+            <div class="wrapper">
+                <h2>Projekty</h2>
+            </div>
+        </section>
+    
+        <section id="content">
+            <div class="wrapper">
+            <div id="projectsGrid">
+                <div class="project">
+                        <div class="project-image"><a href="images/projects/uhradilu.png" data-lightbox="projects" data-title="Hostinec U Hradilů"><img src="images/projects/uhradilu.png" alt="Hostinec U Hradilů"></a></div>
+                        <div class="project-title"><h3>Hostinec U Hradilů</h3></div>
+                        <div class="project-description">Návrh designu webu, vytvoření redakčního systému založeného na PHP a MySQL databázi.</div>
+                    </div>
+                <div class="project">
+                        <div class="project-image"><a href="images/projects/smartphrase.png" data-lightbox="projects" data-title="SmartPhrase"><img src="images/projects/smartphrase.png" alt="SmartPhrase"></a></div>
+                        <div class="project-title"><h3>SmartPhrase</h3></div>
+                        <div class="project-description">Redesign starého webu. PHP scripty pro převod 500 stránek, 23 jazyků.</div>
+                    </div>
+                <div class="project">
+                        <div class="project-image"><a href="images/projects/smartlang.png" data-lightbox="projects" data-title="SmartLanguage"><img src="images/projects/smartlang.png" alt="SmartLanguage"></a></div>
+                        <div class="project-title"><h3>SmartLanguage</h3></div>
+                        <div class="project-description">Redesign starého webu. PHP scripty pro převod 600 stránek, 15 jazyků.</div>
+                    </div>
+                <div class="project">
+                        <div class="project-image"><a href="images/projects/rozhlas.png" data-lightbox="projects" data-title="SPSEOL Rozhlas"><img src="images/projects/rozhlas.png" alt="Rozhlas"></a></div>
+                        <div class="project-title"><h3>SPSEOL Rozhlas</h3></div>
+                        <div class="project-description">Kompletní návrh automatizovaného řešení přehrávání hudby na SPŠEOL. Systém postavený na Raspberry Pi 3, OS Raspbian, PHP7.0 a MySQL. </div>
+                    </div>
+            </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="wrapper">
+                <div id="footerGrid">
+                        <div class="block">
+                                <div class="footerTitle">
+                                    <h3>Kontakt</h3>
+                                    <div class="underline"></div>
+                                </div>
+                                <div class="contactRow"><img src="images/email.png" alt="E-mail"><span><a href="mailto:example@ex.com">example(at)ex.com</a></span></div>
+                                <div class="contactRow"><img src="images/phone.png" alt="Telefon"><span><a href="tel:0420777222444">+420 777 222 444</a></span></div>
+                                <div class="contactRow"><img src="images/map.png" alt="Adresa"><span><a href="https://www.google.com/maps/place/nám.+T.+G.+Masaryka+130%2F14,+796+01+Prostějov/" target="_blank">nám. T. G. Masaryka 130/14, 796 01 Prostějov</a></span></div>
+                        </div>
+                    
+                    <div class="block">
+                        <div class="footerTitle">
+                            <h3>Odkazy</h3>
+                            <div class="underline"></div>
+                        </div>
+                        <ul>
+                            <li><a href="#">Lorem, ipsum dolor</a></li>
+                            <li><a href="#">Iure, beatae dolorum.</a></li>
+                            <li><a href="#">Quia, placeat ut.</a></li>
+                            <li><a href="#">Exercitationem, voluptate deserunt?</a></li>
+                            <li><a href="#">Autem, facere vel.</a></li>
+                        </ul>
+                    </div>
+                    <div class="block">
+                            <div id="social">
+                                <div class="footerTitle">
+                                    <h3>Sociální sítě</h3>
+                                    <div class="underline"></div>
+                                </div>
+                                <div id="socialGrid">
+                                    <a href="#"><img src="images/facebook.png" class="socialImage" alt="Facebook"></a>
+                                    <a href="#"><img src="images/twitter.png" class="socialImage" alt="Twitter"></a>
+                                    <a href="#"><img src="images/linkedin.png" class="socialImage" alt="LinkedIn"></a>
+                                    <a href="#"><img src="images/googleplus.png" class="socialImage" alt="Google+"></a>
+                                    <a href="#"><img src="images/instagram.png" class="socialImage" alt="Instagram"></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <p>&copy; 2018 Martin Dostál</p>
+            </div>
+        </footer>
+    
+    </body>
+    </html>
